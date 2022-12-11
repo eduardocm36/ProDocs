@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+.containerPresent {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.containerPresent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fondoPresent {
+  background-image: url(../assets/fondo.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.sombreros {
+  background-image: url(../assets/sombreros.png);
+  background-size: contain;
+  background-position: bottom center;
+  z-index: 10;
+}
+
+.alumnos {
+  background-image: linear-gradient(
+      rgba(240, 193, 182, 0.452),
+      rgba(0, 0, 0, 0.145)
+    ),
+    url(../assets/alumnos.png);
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+}
+
+.titlePresent {
+  font-family: 'Gilroy-Bold', sans-serif;
+  position: absolute;
+  color: #1d1d1d;
+  white-space: nowrap;
+  font-size: 8.5vw;
+  z-index: 9;
+  text-shadow: 4px 4px 10px #2a2734;
+  transform: translateY(-150px);
+}
+
+.containerTextPres{
+  position: relative;
+  background-color: #C9B8B7;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.textPresent {
+  position: absolute;
+  z-index: 9;
+  width: 45%;
+  text-align: center;
+  padding: 12px 30px;
+  border-radius: 40px;
+  background: transparent;
+  color: #1d1d1d;
+  font-weight: 500;
+  font-size: 1.9em;
+  font-family: 'Gilroy-Medium', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-21px);
+}
+
