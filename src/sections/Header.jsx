@@ -8,7 +8,7 @@ export function Header() {
       to: "#inicio",
     },
     {
-      title: "Nosotros xddddddddd",
+      title: "Nosotros",
       to: "#ofrecer",
     },
     {
