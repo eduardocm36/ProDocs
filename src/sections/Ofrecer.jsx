@@ -103,6 +103,10 @@ export function Ofrecer() {
                   {property.text}
                 </div>
               );
+            } else {
+              return (
+                console.log("xd")
+              )
             }
           })}
         </div>
@@ -116,7 +120,11 @@ export function Ofrecer() {
                   <h2>{property.title}</h2>
                   {property.text}
                 </div>
-              );
+              ); 
+            } else {
+              return (
+                console.log("xd")
+              )
             }
           })}
         </div>
