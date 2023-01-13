@@ -8,7 +8,7 @@ export function Header() {
       to: "#inicio",
     },
     {
-      title: "Nosotros",
+      title: "Nosotros xddddddddd",
       to: "#ofrecer",
     },
     {
@@ -65,7 +65,7 @@ export function Header() {
             <a href={navigation.to} className="navBarOptions">
               {navigation.title}
             </a>
-          );
+          ); 
         })}
       </nav>
     </header>
