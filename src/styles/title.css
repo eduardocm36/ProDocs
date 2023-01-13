@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.containerTitle {
+    padding: 16px 0px;
+    margin-bottom: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .containerTitle text {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 1.5em;
+  }

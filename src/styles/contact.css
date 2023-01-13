@@ -1,0 +1,69 @@
+.containerContact {
+    width: 100%;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+}
+
+.containerContacto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerInfo, .containerForm{
+    width: 50%;
+}
+
+.containerInfo{
+    padding-right: 15px;
+}
+.containerForm{
+    padding-left: 15px;
+}
+
+.containerInfo h3{
+    font-size: 35px;
+}
+
+.containerInfo p, .containerInfo div {
+    font-size: 25px;
+}
+.containerForm input{
+    background-color: #fff;
+    padding: 0px 13px;
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+
+.containerForm textarea{
+    background-color: #fff;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 9px 13px;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerContact{
+        padding: 64px 18px;
+    }
+
+    .containerContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerInfo, .containerForm{
+        width: 100%;
+    }
+
+    .containerForm input, .containerForm textarea {
+        margin: 10px 0px
+    };
+}

@@ -5,15 +5,15 @@ export function Header() {
   const navigations = [
     {
       title: "Inicio",
-      to: "#presentation",
+      to: "#inicio",
     },
     {
       title: "Nosotros",
-      to: "#fundadores",
+      to: "#ofrecer",
     },
     {
       title: "Contáctenos",
-      to: "#ofrecer",
+      to: "#Contact",
     },
   ];
 
@@ -21,6 +21,7 @@ export function Header() {
     <header className="header">
       <div className="titleheader">
         <img src={logo} alt="logo" className="header_logo" />
+        <h1>ProDocs</h1>
       </div>
       <button
         onClick={() => {

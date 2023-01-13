@@ -3,23 +3,21 @@
 *{
   padding: 0;
   margin: 0;
+  font-size: 25px;
 }
 
-.App{
-}
 
 .headerContent{
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 100;
 }
 
 
 .body{
+  padding-top: 80px;
   position: relative;
-  height: 5000px;
   font-family: 'Gilroy-Regular', sans-serif;
-
 }
 
 

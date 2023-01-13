@@ -8,7 +8,6 @@ function parallax() {
       var moving_value = move.getAttribute("data_value");
       var x = (e.clientX + moving_value) / 250;
       var y = (e.clientY + moving_value) / 250;
-      console.log(x);
 
       move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
@@ -18,7 +17,7 @@ function parallax() {
 export function Presentacion() {
   return (
     <>
-      <div className="containerPresent">
+      <div className="containerPresent" id="inicio">
         <div id="fondo" className="fondoPresent"></div>
         <div
           id="sompreros"
@@ -31,14 +30,6 @@ export function Presentacion() {
           Digitalizar tus procesos, es la forma más fácil y rápida de brindar
           grados académicos.
         </p>
-        <h2
-          id="title"
-          className="titlePresent"
-          // data-aos="fade-up"
-          // data-aos-duration="2700"
-        >
-          ProDocs
-        </h2>
       </div>
     </>
   );
