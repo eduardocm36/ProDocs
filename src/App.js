@@ -4,6 +4,7 @@ import { Presentacion } from "./sections/Presentation";
 import { Ofrecer } from "./sections/Ofrecer";
 import { Client } from "./sections/clients";
 import { Contact } from "./sections/contact";
+// import { Fundadores } from "./sections/fundadores";
 
 function App() {
   return (

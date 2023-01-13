@@ -29,6 +29,7 @@
 
 .containerInfo p, .containerInfo div {
     font-size: 25px;
+    padding-bottom: 20px;
 }
 .containerForm input{
     background-color: #fff;
